@@ -86,37 +86,18 @@
 </svg>
 </header>
 
-<!-- Modal -->
-<div id="id01" class="w3-modal">
-    <div class="w3-modal-content w3-card-4 w3-animate-top">
-      <header class="w3-container w3-theme-l1"> 
-        <span onclick="document.getElementById('id01').style.display='none'"
-        class="w3-button w3-display-topright">×</span>
-        <h4>Oh snap! We just showed you a modal..</h4>
-        <h5>Because we can <i class="fa fa-smile-o"></i></h5>
-      </header>
-      <div class="w3-padding">
-        <p>Cool huh? Ok, enough teasing around..</p>
-        <p>Go to our <a class="w3-btn" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
-      </div>
-      <footer class="w3-container w3-theme-l1">
-        <p>Modal footer</p>
-      </footer>
-    </div>
-</div>
-
 <div class="w3-row-padding w3-center w3-margin-top">
 <div class="w3-third">
   <div class="w3-card w3-container" style="min-height:460px">
   <h3>Kontakt</h3><br>
   <i class="fa fa-vcard-o w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-  <address>
-  <p>Dipl.-Ing. J&ouml;rn G&ouml;rtz</p>
-  <p>M&uuml;hlenstra&szlig;e 20</p>
-  <p>19055 Schwerin</p>
-  <p><i class="fa fa-phone-square">&nbsp;</i><a href="tel:+4938548937264">+49 385 48937264</a></p>
-  <p><i class="fa fa-envelope-square">&nbsp;</i><a href="mailto:info@ib-goertz.de">info@ib-goertz.de</a></p>
-  </address>
+<ul class="w3-ul">
+  <li>Dipl.-Ing. J&ouml;rn G&ouml;rtz</li>
+  <li>M&uuml;hlenstra&szlig;e 20</li>
+  <li>19055 Schwerin</li>
+  <li><i class="fa fa-phone-square">&nbsp;&nbsp;</i><a href="tel:+4938548937264">+49 385 48937264</a></li>
+  <li><i class="fa fa-envelope-square">&nbsp;&nbsp;</i><a href="mailto:info@ib-goertz.de">info@ib-goertz.de</a></li>
+</ulclass="w3-ul">
   </div>
 </div>
 
@@ -134,25 +115,27 @@
 
 <div class="w3-third">
   <div class="w3-card w3-container" style="min-height:460px">
-  <h3>Impressum</h3><br>
-  <i class="fa fa-book w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-<p>Ingenieurb&#252;ro G&#246;rtz<br/>
-J&#246;rn G&#246;rtz<br/>
-M&#252;hlenstra&#223;e 20<br/>
-19055 Schwerin<br/>
-Tel: +49 385 48937264<br/>
-<a href="mailto:info@ib-goertz.de">info@ib-goertz.de</a>
-</p>
+	<h3>Impressum</h3><br>
+	<i class="fa fa-book w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+	<p>Ingenieurb&#252;ro G&#246;rtz<br/>
+		J&#246;rn G&#246;rtz<br/>
+		M&#252;hlenstra&#223;e 20<br/>
+		19055 Schwerin<br/>
+		Tel: +49 385 48937264<br/>
+	<a href="mailto:info@ib-goertz.de">info@ib-goertz.de</a>
+	</p>
   </div>
 </div>
+
 </div>
-<div class=" w3-center w3-margin">
-<div class="w3-card w3-container w3-tiny w3-left-align">
-<button onclick="myFunction('dsgvo')" class="w3-button w3-block w3-left-align"><h3>
-Datenschutz &#9698;</h3></button>
+
+<div class="w3-center w3-margin">
+<div class="w3-card w3-container ">
+<button id="dsbutton" onclick="myFunction('dsgvo')" class="w3-button w3-block w3-left-align"><h3>
+<i class="fa fa-gavel" style="font-size:30px"></i> Datenschutz<i class="fa fa-chevron-circle-down w3-right"></i></h3></button>
 
 
-<div id="dsgvo" class="w3-container w3-hide">
+<div id="dsgvo" class="w3-container w3-hide  w3-tiny w3-left-align">
 <p>Wir informieren Sie nachfolgend gemäß den gesetzlichen Vorgaben des Datenschutzrechts (insb. gemäß BDSG n.F. und der europäischen Datenschutz-Grundverordnung ‚DS-GVO‘) über die Art, den Umfang und Zweck der Verarbeitung personenbezogener Daten durch unser Unternehmen. Diese Datenschutzerklärung gilt auch für unsere Websites und Sozial-Media-Profile. Bezüglich der Definition von Begriffen wie etwa „personenbezogene Daten“ oder „Verarbeitung“ verweisen wir auf Art. 4 DS-GVO.</p>
 					<strong>Name und Kontaktdaten des / der Verantwortlichen</strong><br />
 					Unser/e Verantwortliche/r (nachfolgend „Verantwortlicher“) i.S.d. Art. 4 Zif. 7 DS-GVO ist:<br />
@@ -260,7 +243,7 @@ Datenschutz &#9698;</h3></button>
 <!-- Footer -->
 <footer class="w3-container w3-theme">
   <div style="position:relative;bottom:5px;" class="w3-tooltip w3-right">
-    <span class="w3-text w3-theme-light w3-padding">Zum Anfang</span>    
+    <span class="w3-text w3-theme-light w3-padding">Up</span>    
     <a class="w3-text-white" href="#myHeader"><span class="w3-xlarge">
     <i class="fa fa-chevron-circle-up"></i></span></a>
   </div>
