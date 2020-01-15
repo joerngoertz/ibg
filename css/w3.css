@@ -1048,7 +1048,8 @@ a{
 }
  .w3-button:hover{
     color:#000!important;
-    background-color:#ccc!important
+    /* background-color:#ccc!important */
+	background-color:#d2eafd!important
 }
  .w3-transparent,.w3-hover-none:hover{
     background-color:transparent!important
